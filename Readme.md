@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Alexandra Samonenko](https://up.htmlacademy.ru/htmlcss/29/user/220409).
-* Наставник: `Неизвестно`.
+* Наставник: [Лик](https://htmlacademy.ru/profile/id17217).
 
 ---
 
