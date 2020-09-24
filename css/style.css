@@ -1,0 +1,212 @@
+/* Variables */
+:root {
+  --basic-white: #FFFFFF;
+  --basic-black: #000000;
+  --basic-dark-gray: #283136;
+  --basic-gray: #666666;
+  --basic-light-gray: #444444;
+  --basic-lighten-gray: #EEEEEE;
+  --basic-light-red: #FB565A;
+  --basic-green: #00CA74;
+  --basic-yellow: #EFC849;
+}
+
+body {
+  min-width: 1440px;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--basic-dark-gray);
+  background-color: var(--basic-white);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-header {
+  background-color: var(--basic-lighten-gray);
+}
+
+/* Main navigation */
+
+.main-navigation {
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+/* User navigation */
+
+.site-navigation a,
+.site-navigation a:hover,
+.site-navigation a:focus,
+.cart-link,
+.cart-link:hover,
+.cart-link:focus {
+  color: var(--basic-black);
+}
+
+/* Buttons */
+.button {
+  color: var(--basic-white);
+  background-color: var(--basic-light-red);
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--basic-white);
+}
+
+/* Features */
+
+.features {
+  background-color: var(--basic-lighten-gray);
+}
+
+.features-info h3 {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 55px;
+  color: var(--basic-black);
+  background-color: transparent;
+}
+
+/* Products */
+
+.products-list {
+  list-style: none;
+}
+
+.products-item h3 {
+  text-transform: uppercase;
+  color: var(--basic-black);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.products-item:nth-child(2) .products-button {
+  background-color: var(--basic-green);
+}
+
+.products-item:last-child .products-button {
+  background-color: var(--basic-yellow);
+}
+
+/* About */
+.about-us-descr h3 {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+  color: var(--basic-black);
+}
+
+.about-us h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.about-us-descr-list,
+.about-us-numbers-list {
+  list-style: none;
+}
+
+.about-us-numbers h4 {
+  color: var(--basic-black);
+}
+
+.about-us-numbers-item p:first-child {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 64px;
+  color: var(--basic-black);
+}
+
+.about-us-numbers-item span {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 40px;
+  
+}
+
+/* Partners */
+.partners-list {
+  list-style: none;
+}
+
+/* Contacts */
+.contacts h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: var(--basic-black);
+}
+
+.contacts p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--basic-gray);
+}
+
+.contacts-phone,
+.contacts-phone:hover,
+.contacts-phone:focus {
+  color: inherit;
+}
+
+/* Footer */
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.social-sale h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: var(--basic-black);
+}
+
+.social-sale p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: var(--basic-dark-gray);
+}
+
+
+
+
+
