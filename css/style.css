@@ -19,6 +19,10 @@
   --basic-light-yellow: #EFC849;
   --basic-yellow:#EAB534;
   --basic-dark-yellow: #E5A722;
+
+  --social-gray: #E1E1E1;
+  --transparent-white: rgba(255, 255, 255, 0.3);
+  --transparent-black: rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -83,8 +87,7 @@ img {
 
 .site-navigation a:active,
 .cart-link:active {
-  color: var(--basic-black);
-  opacity: 30%;
+  color: var(--transparent-black);
 }
 
 /* Buttons */
@@ -108,8 +111,7 @@ button:visited {
 
 .button:active {
   background-color: var(--basic-dark-red);
-  color: var(--basic-white);
-  opacity: 30%;
+  color: var(--transparent-white);
 }
 
 /* Features */
@@ -155,8 +157,7 @@ button:visited {
 
 .products-button--green:active {
   background-color: var(--basic-dark-green);
-  color: var(--basic-white);
-  opacity: 30%;
+  color: var(--transparent-white);
 }
 
 .products-button--yellow,
@@ -171,11 +172,9 @@ button:visited {
   color: var(--basic-white);
 }
 
-.products-button--yellow:hover,
-.products-button--yellow:focus {
+.products-button--yellow:active {
   background-color: var(--basic-dark-yellow);
-  color: var(--basic-white);
-  opacity: 30%;
+  color: var(--transparent-white);
 }
 
 /* About */
@@ -252,11 +251,25 @@ button:visited {
   padding: 0px;
 }
 
+/*  Social buttons */
 .social-button {
-  color: inherit;
   text-transform: uppercase;
+  background-color: var(--social-gray);
+  color: var(--basic-white);
 }
 
+.social-button:hover,
+.social-button:focus {
+  background-color: var(--basic-red);
+  color: var(--basic-white);
+}
+
+.social-button:active {
+  color: var(--transparent-white);
+  background-color: var(--basic-dark-red);
+}
+
+/* Social sale */
 .social-sale h3 {
   font-size: 36px;
   font-weight: 700;
@@ -271,4 +284,12 @@ button:visited {
   line-height: 22px;
   text-align: left;
   color: var(--basic-dark-gray);
+}
+
+/* Feedback */
+.feedback h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: var(--basic-black);
 }
