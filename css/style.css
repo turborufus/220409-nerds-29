@@ -53,6 +53,14 @@ img {
   background-color: var(--basic-lighten-gray);
 }
 
+.main-header-logo {
+  color: var(--basic-black);
+}
+
+.main-header-logo:active {
+  opacity:30%;
+}
+
 /* Main navigation */
 
 .main-navigation {
