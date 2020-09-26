@@ -2,13 +2,23 @@
 :root {
   --basic-white: #FFFFFF;
   --basic-black: #000000;
+
   --basic-dark-gray: #283136;
   --basic-gray: #666666;
   --basic-light-gray: #444444;
   --basic-lighten-gray: #EEEEEE;
+
   --basic-light-red: #FB565A;
-  --basic-green: #00CA74;
-  --basic-yellow: #EFC849;
+  --basic-red: #E74246;
+  --basic-dark-red: #D7373B;
+
+  --basic-light-green: #00CA74;
+  --basic-green: #00BC6C;
+  --basic-dark-green: #00AA62;
+
+  --basic-light-yellow: #EFC849;
+  --basic-yellow:#EAB534;
+  --basic-dark-yellow: #E5A722;
 }
 
 body {
