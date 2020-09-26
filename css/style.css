@@ -238,6 +238,10 @@ button:visited {
 }
 
 /* Contacts */
+.contacts-map {
+  background-color: var(--basic-lighten-gray);
+}
+
 .contacts h3 {
   text-transform: uppercase;
   font-size: 18px;
