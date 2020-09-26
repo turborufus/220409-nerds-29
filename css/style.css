@@ -61,6 +61,8 @@ img {
 
 .site-navigation {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* User navigation */
@@ -128,6 +130,8 @@ button:visited {
 
 .products-list {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .products-item h3 {
@@ -190,6 +194,8 @@ button:visited {
 .about-us-descr-list,
 .about-us-numbers-list {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .about-us-numbers h4 {
@@ -213,6 +219,8 @@ button:visited {
 /* Partners */
 .partners-list {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* Contacts */
@@ -240,6 +248,8 @@ button:visited {
 /* Footer */
 .footer-social ul {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .social-button {
