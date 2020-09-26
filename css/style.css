@@ -109,11 +109,11 @@ img {
   line-height: 30px;
 }
 
-.products-item:nth-child(2) .products-button {
+.products-button--green {
   background-color: var(--basic-green);
 }
 
-.products-item:last-child .products-button {
+.products-button--yellow {
   background-color: var(--basic-yellow);
 }
 
