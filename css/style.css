@@ -471,6 +471,10 @@ button:visited {
   background-color: var(--basic-dark-red);
 }
 
+.social-button:active img {
+  opacity:30%
+}
+
 /* Social sale */
 .social-sale h3 {
   font-size: 36px;
