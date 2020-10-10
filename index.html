@@ -9,19 +9,23 @@
   </head>
   <body class="page-body">
     <header class="main-header">
+      
       <nav class="main-navigation">
-        <a class="main-header-logo" href="#">
-          <img src="img/logos/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии NЁRDS">
-        </a>
-        <ul class="site-navigation">
-          <li><a href="blank.html">Студия</a></li>
-          <li><a href="blank.html">Клиенты</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="blank.html">Контакты</a></li>
-        </ul>
-        <div class="cart">
-          <img src="img/icons/cart-icon.svg" alt="">
-          <a class="cart-link" href="blank.html">Корзина</a>
+        <div class="main-navigation-wrapper">
+          <a class="main-header-logo" href="#">
+            <img src="img/logos/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии NЁRDS">
+          </a>
+          
+          <ul class="site-navigation">
+            <li><a href="blank.html">Студия</a></li>
+            <li><a href="blank.html">Клиенты</a></li>
+            <li><a href="catalog.html">Магазин</a></li>
+            <li><a href="blank.html">Контакты</a></li>
+          </ul>
+          <div class="cart">
+            <img src="img/icons/cart-icon.svg" alt="">
+            <a class="cart-link" href="blank.html">Корзина</a>
+          </div>
         </div>
       </nav>
     </header>
@@ -30,15 +34,15 @@
       <h1>Дизайн-студия NЁRDS</h1>
       <section class="features"> 
         <h2>Преимущества</h2>
-          <figure class="features-img">
-            <img src="img/nerds-index-slide1.png" width="760" height="430" alt="Слайдер">
-          </figure>
+        <div class="features-slider">
+          <img class="features-img" src="img/nerds-index-slide1.png" width="760" height="430" alt="Слайдер">
           <div class="features-info">
-          <h3>Долго, дорого, скрупулезно.</h3>
-          <p>
-            Математически выверенный дизайн для вашего сайта или мобильного приложения.
-          </p>
-          <a class="button" href="blank.html">Узнать больше</a>
+            <h3>Долго, дорого, скрупулезно.</h3>
+            <p>
+              Математически выверенный дизайн для вашего сайта или мобильного приложения.
+            </p>
+            <a class="button" href="blank.html">Узнать больше</a>
+          </div>
         </div>
       </section>
 
@@ -67,51 +71,53 @@
       </section>
       <section class="about-us">
         <h2>О нашей студии</h2>
-        <div class="about-us-descr">
-          <h3>
-            Мы — маленькая, но гордая дизайн-студия из Краснодара.
-          </h3>
-          <p>
-            Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.
-          </p>
-          <h4>
-            Выполняем заказы на разработку:
-          </h4>
-          <ul class="about-us-descr-list">
-            <li class="about-us-descr-item">
-              Веб-сайтов любой сложности
-            </li>
-            <li class="about-us-descr-item">
-              Мобильных приложений для iOS и Android
-            </li>
-            <li class="about-us-descr-item">
-              Слайдшоу и видео для корпоративных презентаций
-            </li>
-          </ul>
-        </div>
-        <div class="about-us-numbers">
-          <img src="img/nerds-illustration.jpg" width="360" heigth="208" alt="Логотип дизайн-студии NЁRDS">
-          <h4>с 2004 года Любим точность во всем:</h4>
-          <ul class="about-us-numbers-list">
-            <li class="about-us-numbers-item">
-              <p>146<span>%</span></p>
-              <p>
-                Уровень самоотдачи
-              </p>
-            </li>
-            <li class="about-us-numbers-item">
-              <p>100<span>%</span></p>
-              <p>
-                Соблюдение сроков
-              </p>
-            </li>
-            <li class="about-us-numbers-item">
-              <p>50<span>%</span></p>
-              <p>
-                Минимальная предоплата
-              </p>
-            </li>
-          </ul>
+        <div class="about-us-wrapper">
+          <div class="about-us-descr">
+            <h3>
+              Мы — маленькая, но гордая дизайн-студия из Краснодара.
+            </h3>
+            <p>
+              Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.
+            </p>
+            <h4>
+              Выполняем заказы на разработку:
+            </h4>
+            <ul class="about-us-descr-list">
+              <li class="about-us-descr-item">
+                Веб-сайтов любой сложности
+              </li>
+              <li class="about-us-descr-item">
+                Мобильных приложений для iOS и Android
+              </li>
+              <li class="about-us-descr-item">
+                Слайдшоу и видео для корпоративных презентаций
+              </li>
+            </ul>
+          </div>
+          <div class="about-us-numbers">
+            <img src="img/nerds-illustration.jpg" width="360" heigth="208" alt="Логотип дизайн-студии NЁRDS">
+            <h4>с 2004 года Любим точность во всем:</h4>
+            <ul class="about-us-numbers-list">
+              <li class="about-us-numbers-item">
+                <p>146<span>%</span></p>
+                <p>
+                  Уровень самоотдачи
+                </p>
+              </li>
+              <li class="about-us-numbers-item">
+                <p>100<span>%</span></p>
+                <p>
+                  Соблюдение сроков
+                </p>
+              </li>
+              <li class="about-us-numbers-item">
+                <p>50<span>%</span></p>
+                <p>
+                  Минимальная предоплата
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="partners">
@@ -141,30 +147,36 @@
       </section>
       <section class="contacts">
         <h2>Контактная информация</h2>
-        <img class="contacts-map" src="img/map.jpg" width="1440" heigth="416" alt="Карта">
-        <h3>NЁRDS DESIGN STUDIO</h3>
-        <p>91186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-        <p>тел. <a class="contacts-phone" href="tel:+78122757575">+7 (812) 275-75-75</a></p>
-        <a class="button" href="blank.html">Напишите нам</a>
+        <div class="contacts-wrapper">
+          <img class="contacts-map" src="img/map.jpg" width="1440" heigth="416" alt="Карта">
+          <div class="contacts-feedback">
+            <h3>NЁRDS DESIGN STUDIO</h3>
+            <p>91186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            <p>тел. <a class="contacts-phone" href="tel:+78122757575">+7 (812) 275-75-75</a></p>
+            <a class="button" href="blank.html">Напишите нам</a>
+          </div>
+        </div>
       </section>
     </main>
-    <footer class="page-footer main-footer">
-      <section class="footer-social">
+    <footer class="page-footer main-footer ">
+      <section class="footer-social container">
         <h2>Давайте дружить!</h2>
-        <ul>
-          <li>
-            <a class="social-button" href="#"><img src="img/icons/vk-icon.svg" width="26" height="15" alt="Вконтакте"></a>
-          </li>
-          <li>
-            <a class="social-button" href="#"><img src="img/icons/fb-icon.svg" width="12" height="22" alt="Фейсбук"></a>
-          </li>
-          <li>
-            <a class="social-button" href="#"><img src="img/icons/insta-icon.svg" width="21" height="21" alt="Инстаграм"></a>
-          </li>
-        </ul>
-        <div class="social-sale">
-          <h3>Давайте дружить, это выгодно!</h3>
-          <p>Скидка 10% для друзей из социальных сетей.</p>
+        <div class="footer-wrapper">
+          <ul>
+            <li>
+              <a class="social-button" href="#"><img src="img/icons/vk-icon.svg" width="26" height="15" alt="Вконтакте"></a>
+            </li>
+            <li>
+              <a class="social-button" href="#"><img src="img/icons/fb-icon.svg" width="12" height="22" alt="Фейсбук"></a>
+            </li>
+            <li>
+              <a class="social-button" href="#"><img src="img/icons/insta-icon.svg" width="21" height="21" alt="Инстаграм"></a>
+            </li>
+          </ul>
+          <div class="social-sale">
+            <h3>Давайте дружить, это выгодно!</h3>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+          </div>
         </div>
       </section>
     </footer>
