@@ -494,28 +494,26 @@ button:visited {
 
 /* Contacts */
 .contacts-wrapper {
-  display: grid;
-  grid-template-columns: repeat(12, 60px);
-  grid-template-rows: 416px;
-  column-gap: 40px;
+  position: relative;
+  margin-bottom: 68px;
 }
 
 .contacts-map {
   background-color: var(--basic-lighten-gray);
-  grid-column: 1 / -1;
-  grid-row: 1 / -1;
+  width: 1440px;
+  height: 416px;
 }
 
 .contacts-feedback {
+  position: absolute;
+  left: 0px;
+  top: 55px;
   background-color: var(--basic-white);
-  margin-top: 55px;
-  margin-bottom: 55px;
   padding: 49px 50px 47px 50px;
-  width: 318px;
+  width: 319px;
   height: 308px;
   box-sizing: border-box;
-  grid-column: 1 / 5;
-  grid-row: 1 / -1;
+  border: 5px solid black;
 }
 
 .contacts-feedback h3 {
@@ -524,6 +522,7 @@ button:visited {
   font-weight: 700;
   line-height: 30px;
   color: var(--basic-black);
+  margin: 0px;
 }
 
 .contacts-feedback p {
@@ -599,4 +598,13 @@ button:visited {
   font-size: 45px;
   line-height: 53px;
   color: var(--basic-black);
+}
+
+/* Modal */
+.modal {
+  display: none;
+}
+
+.visually-hidden {
+  display: none;
 }
