@@ -87,18 +87,19 @@ img {
   color: var(--basic-black);
   text-transform: uppercase;
   background-color: transparent;
+  margin-top: 48px;
 }
 
 /* Container */
 .container {
-  width: 1157px;
+  width: 1160px;
   margin: 0 auto;
 }
 
 .main-navigation-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr min-content;
-  width: 1157px;
+  grid-template-columns: 2fr 8fr 2fr;
+  width: 1160px;
   margin: 0 auto;
 }
 
@@ -106,6 +107,12 @@ img {
   list-style: none;
   margin: 0px;
   padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  box-sizing: border-box;
+  width: 437px;
+  text-align: center;
+  justify-self: center;
 }
 
 /* User navigation */
@@ -127,6 +134,10 @@ img {
 .site-navigation a:active,
 .cart-link:active {
   color: var(--transparent-black);
+}
+
+.cart {
+  text-align: right;
 }
 
 .page-title {
@@ -275,8 +286,7 @@ button:visited {
   grid-column: -1 / -5;
 }
 
-.about-us-descr-list,
-.about-us-numbers-list {
+.about-us-descr-list {
   list-style: none;
   margin: 0px;
   padding: 0px;
@@ -287,18 +297,25 @@ button:visited {
   text-align: center;
 }
 
-.about-us-numbers-item p:first-child {
+.about-us-numbers-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.about-us-numbers-item {
   font-size: 45px;
   font-weight: 700;
   line-height: 64px;
   color: var(--basic-black);
+  grid-row: 1 / 2;
+  margin: 0px;
 }
 
 .about-us-numbers-item span {
   font-size: 26px;
   font-weight: 700;
   line-height: 40px;
-  
+  vertical-align: top;
 }
 
 /* Partners */
@@ -316,7 +333,6 @@ button:visited {
 
 .partners-item-logo {
   opacity: 20%;
-
 }
 
 .partners-item-logo:hover,
@@ -548,6 +564,8 @@ button:visited {
   list-style: none;
   margin: 0px;
   padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 /*  Social buttons */
