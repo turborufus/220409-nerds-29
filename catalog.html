@@ -10,131 +10,148 @@
   <body class="page-body">
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo" href="index.html">
-          <img src="img/logos/nerds-logo.svg" width="160" height="65"  alt="Логотип дизайн-студии NЁRDS">
-        </a>
-        <ul class="site-navigation">
-          <li><a href="blank.html">Студия</a></li>
-          <li><a href="blank.html">Клиенты</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="blank.html">Контакты</a></li>
-        </ul>
-        <div class="cart">
-          <img src="img/icons/cart-icon.svg" alt="">
-          <a class="cart-link" href="blank.html">Корзина</a>
-        </div>
+        <div class="main-navigation-wrapper">
+          <a class="main-header-logo" href="index.html">
+            <img src="img/logos/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии NЁRDS">
+          </a>
+        
+          <ul class="site-navigation">
+            <li><a href="blank.html">Студия</a></li>
+            <li><a href="blank.html">Клиенты</a></li>
+            <li><a href="catalog.html">Магазин</a></li>
+            <li><a href="blank.html">Контакты</a></li>
+          </ul>
+          <div class="cart">
+            <img src="img/icons/cart-icon.svg" alt="">
+            <a class="cart-link" href="blank.html">Корзина</a>
+          </div>
+      </div>
       </nav>
     </header>
 
-    <main class="container">
+    <main class="page-catalog container">
       <h1 class="page-title">Магазин готовых шаблонов</h1>
-      <div class="left-column">
-        <section class="filters">
-          <h2>Фильтры</h2>
-          <h3>Стоимость:</h3>
-          <h3>Сетка:</h3>
-          <h3>Особенности:</h3>
-          <a class="show-filters-button">Показать</a>
-        </section>
-      </div>
-      
-      <div class="right-column">
-        <section class="sort">
-          <h2>Сортировка</h2>
-          <h3>Сортировать:</h3>
-          <ul class="sort-type-list">
-            <li>
-              <a class="sort-type-selected" href="#">По цене</a>
-            </li>
-            <li>
-              <a href="#">По типу</a>
-            </li>
-            <li>
-              <a href="#">По названию</a>
-            </li>
-          </ul>
-          <ul class="sort-direction-list">
-            <li>
-              <a class="sort-direction-selected" href="#">По убыванию</a>
-            </li>
-            <li>
-              <a href="#">По возраcтанию</a>
-            </li>
-          </ul>
-        </section>
-        <section class="templates">
-          <h2>Список шаблонов</h2>
-          <ul class="templates-list">
-            <li class="templates-item">
-              <h3><a class="template-header" href="#">Sedona</a></h3>
-              <img src="img/img-sedona.jpg" width="358" height="576" alt="Информационный сайт для туристов «Sedona»">
-              <p class="item-info">Информационный сайт для туристов</p>
-              <a class="button add-to-cart-button" href="blank.html">9900</a>            
-            </li>
-            <li class="templates-item">
-              <h3><a class="template-header" href="#">PINK</a></h3>
-              <img src="img/img-mishka.jpg" width="358" height="576" alt="Приложение Pink">
-            </li>
-            <li class="templates-item">
-              <h3><a class="template-header" href="#">Барбершоп «Бородинский»</a></h3>
-              <img src="img/img-barbershop.jpg" width="358" height="576" alt="Барбершоп «Бородинский»">
-            </li>
-            <li class="templates-item">
-              <h3><a class="template-header" href="#">Mishka</a></h3>
-              <img src="img/img-mishka.jpg" width="358" height="576" alt="Магазин вязаных вещиц «Mishka»">
-            </li>
-            <li class="templates-item">
-              <h3><a class="template-header" href="#">A-plus</a></h3>
-              <img src="img/img-aplus.jpg" width="358" height="576" alt="Онлайн-школа «A-plus»">
-            </li>
-            <li class="templates-item">
-              <h3><a class="template-header" href="#">Кваст</a></h3>
-              <img src="img/img-kvast.jpg" width="358" height="576" alt="Магазин крафтового «Kvast»">
-            </li>
-          </ul>
-          <div class="pagination">
-            <ul class="pagination-list">
-              <li class="pagination-item pagination-item-current">
-                <a>1</a>
+      <div class="content-wrapper">
+        <div class="left-column">
+          <section class="filters">
+            <h2 class="visually-hidden">Фильтры</h2>
+            <h3>Стоимость:</h3>
+            <h3>Сетка:</h3>
+            <h3>Особенности:</h3>
+            <a class="show-filters-button">Показать</a>
+          </section>
+        </div>
+        
+        <div class="right-column">
+          <section class="sort">
+            <h2 class="visually-hidden">Сортировка</h2>
+            <div class="sort-wrapper">
+              <h3>Сортировать:</h3>
+              <ul class="sort-type-list">
+                <li>
+                  <a class="sort-type-selected" href="#">По цене</a>
+                </li>
+                <li>
+                  <a href="#">По типу</a>
+                </li>
+                <li>
+                  <a href="#">По названию</a>
+                </li>
+              </ul>
+              <ul class="sort-direction-list">
+                <li>
+                  <a class="sort-direction-selected" href="#">По убыванию</a>
+                </li>
+                <li>
+                  <a href="#">По возраcтанию</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="templates">
+            <h2 class="visually-hidden">Список шаблонов</h2>
+            <ul class="templates-list">
+              <li class="templates-item">
+                <img src="img/img-sedona.jpg" width="360" height="578" alt="Информационный сайт для туристов «Sedona»">
+                <div class="template-item-wrapper">
+                  <h3><a class="template-header" href="#">Sedona</a></h3>
+                  <p class="item-info">Информационный сайт для туристов</p>
+                  <a class="button add-to-cart-button" href="blank.html">9900</a>
+                </div>
               </li>
-              <li class="pagination-item">
-                <a href="#">2</a>
+              <li class="templates-item">
+                <img src="img/img-pink.jpg" width="360" height="578" alt="Приложение Pink">
+                <h3><a class="template-header visually-hidden" href="#">PINK</a></h3>
               </li>
-              <li class="pagination-item" >
-                <a href="#">3</a>
+              <li class="templates-item">
+                <h3><a class="template-header visually-hidden" href="#">Барбершоп «Бородинский»</a></h3>
+                <img src="img/img-barbershop.jpg" width="360" height="578" alt="Барбершоп «Бородинский»">
+              </li>
+              <li class="templates-item">
+                <h3><a class="template-header visually-hidden" href="#">Mishka</a></h3>
+                <img src="img/img-mishka.jpg" width="360" height="578" alt="Магазин вязаных вещиц «Mishka»">
+              </li>
+              <li class="templates-item">
+                <h3><a class="template-header visually-hidden" href="#">A-plus</a></h3>
+                <img src="img/img-aplus.jpg" width="360" height="578" alt="Онлайн-школа «A-plus»">
+              </li>
+              <li class="templates-item">
+                <h3><a class="template-header visually-hidden" href="#">Кваст</a></h3>
+                <img src="img/img-kvast.jpg" width="360" height="578" alt="Магазин крафтового «Kvast»">
               </li>
             </ul>
-            <a class="pagination-next" href="#">Следующая</a>
-          </div>
-        </section>
+            <div class="pagination">
+              <ul class="pagination-list">
+                <li class="pagination-item pagination-item-current">
+                  <a>1</a>
+                </li>
+                <li class="pagination-item">
+                  <a href="#">2</a>
+                </li>
+                <li class="pagination-item" >
+                  <a href="#">3</a>
+                </li>
+                <li class="pagination-next">
+                  <a href="#">Следующая</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
       </div>
       
       <section class="contacts">
-        <h2>Контактная информация</h2>
-        <img class="contacts-map" src="img/map.jpg" width="1440" heigth="416" alt="Карта">
-        <h3>NЁRDS DESIGN STUDIO</h3>
-        <p>91186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-        <p>тел. <a class="contacts-phone" href="tel:+78122757575">+7 (812) 275-75-75</a></p>
-        <a class="button" href="blank.html">Напишите нам</a>
+        <h2 class="visually-hidden">Контактная информация</h2>
+        <div class="contacts-wrapper">
+          <img class="contacts-map" src="img/map.jpg" width="1440" heigth="416" alt="Карта">
+          <div class="contacts-feedback">
+            <h3>NЁRDS DESIGN STUDIO</h3>
+            <p>91186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            <p>тел. <a class="contacts-phone" href="tel:+78122757575">+7 (812) 275-75-75</a></p>
+            <a class="button" href="blank.html">Напишите нам</a>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="page-footer main-footer">
-      <section class="footer-social">
-        <h2>Давайте дружить!</h2>
-        <ul>
-          <li>
-            <a class="social-button" href="#"><img src="img/icons/vk-icon.svg" width="26" height="15" alt="Вконтакте"></a>
-          </li>
-          <li>
-            <a class="social-button" href="#"><img src="img/icons/fb-icon.svg" width="12" height="22" alt="Фейсбук"></a>
-          </li>
-          <li>
-            <a class="social-button" href="#"><img src="img/icons/insta-icon.svg" width="21" height="21" alt="Инстаграм"></a>
-          </li>
-        </ul>
-        <div class="social-sale">
-          <h3>Давайте дружить, это выгодно!</h3>
-          <p>Скидка 10% для друзей из социальных сетей.</p>
+      <section class="footer-social container">
+        <h2 class="visually-hidden">Давайте дружить!</h2>
+        <div class="footer-wrapper">
+          <ul>
+            <li>
+              <a class="social-button" href="#"><img src="img/icons/vk-icon.svg" width="26" height="15" alt="Вконтакте"></a>
+            </li>
+            <li>
+              <a class="social-button" href="#"><img src="img/icons/fb-icon.svg" width="12" height="22" alt="Фейсбук"></a>
+            </li>
+            <li>
+              <a class="social-button" href="#"><img src="img/icons/insta-icon.svg" width="21" height="21" alt="Инстаграм"></a>
+            </li>
+          </ul>
+          <div class="social-sale">
+            <h3>Давайте дружить, это выгодно!</h3>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+          </div>
         </div>
       </section>
     </footer>

@@ -346,6 +346,32 @@ button:visited {
   color: var(--basic-black);
 }
 
+/* Grid for pages */
+.page-catalog .page-title {
+  display: block;
+  width: 100%;
+  height: 235px;
+  margin: 0px;
+  text-align: center;
+  padding-top: 60px;
+  
+}
+
+.page-catalog .content-wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 60px);
+  column-gap: 40px;
+  margin-top: 60px;
+}
+
+.content-wrapper .left-column {
+  grid-column: 1 / 4;
+}
+
+.content-wrapper .right-column {
+  grid-column: 5 / -1;
+}
+
 /* Filters */
 .filters h3 {
   text-transform: uppercase;
@@ -353,6 +379,7 @@ button:visited {
   font-weight: 700;
   line-height: 30px;
   color: var(--basic-black);
+  margin: 0px;
 }
 
 .show-filters-button,
@@ -377,15 +404,32 @@ button:visited {
 }
 
 /* Sort */
+.sort-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 60px) auto min-content;
+  column-gap: 40px;
+  margin-bottom: 55px;
+}
+
 .sort h3 {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
   color: var(--basic-black);
+  margin: 0px;
+  grid-column: 1 / 5;
 }
 
-.sort-type-list,
+.sort-type-list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 25px;
+}
+
 .sort-direction-list {
   list-style: none;
   margin: 0px;
@@ -420,10 +464,19 @@ button:visited {
   list-style: none;
   margin: 0px;
   padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 30px;
+}
+
+.templates-item {
+  position: relative;
 }
 
 .templates-item h3 {
   background-color: var(--basic-lighten-gray);
+  margin: 0px;
 }
 
 .template-header,
@@ -452,15 +505,33 @@ button:visited {
   background-color: var(--basic-lighten-gray);
 }
 
+.template-item-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 231px;
+  bottom: 0px;
+  background-color: var(--basic-lighten-gray);
+  padding-top: 27px;
+  padding-right: 80px;
+  padding-left: 80px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
 .add-to-cart-button:active {
   color: var(--basic-white);
+  margin: 0px;
 }
 
 /* Pagination */
 .pagination-list {
   list-style: none;
-  margin: 0px;
+  margin-top: 55px;
+  margin-bottom: 60px;
   padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(4, min-content);
+  column-gap: 11px;
 }
 
 .pagination-item a {
@@ -469,6 +540,7 @@ button:visited {
   font-size: 16px;
   font-weight: 500;
   line-height: 18px;
+
 }
 
 .pagination-item-current a {
