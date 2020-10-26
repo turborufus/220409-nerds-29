@@ -97,8 +97,9 @@ img {
 }
 
 .main-navigation-wrapper {
-  display: grid;
-  grid-template-columns: 2fr 8fr 2fr;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 1160px;
   margin: 0 auto;
 }
@@ -107,12 +108,10 @@ img {
   list-style: none;
   margin: 0px;
   padding: 0px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
   box-sizing: border-box;
   width: 437px;
-  text-align: center;
-  justify-self: center;
 }
 
 /* User navigation */
@@ -214,8 +213,17 @@ button:visited {
   list-style: none;
   margin: 0px;
   padding: 0px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  
+}
+
+.products-item {
+  width: 300px;
+  margin-right: 100px;
+}
+
+.products-item:nth-child(3) {
+  margin-right: 40px;
 }
 
 .products-item h3 {
@@ -261,13 +269,13 @@ button:visited {
 
 /* About */
 .about-us-wrapper {
-  display: grid;
-  grid-template-columns: repeat(12, 60px);
-  column-gap: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about-us-descr {
-  grid-column: 1 / 8;
+  width: 660px;
+  box-sizing: border-box;
 }
 
 .about-us-descr h3 {
@@ -283,7 +291,14 @@ button:visited {
 }
 
 .about-us-numbers {
-  grid-column: -1 / -5;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us-numbers img {
+  width: 360px;
+  height: 208px;
 }
 
 .about-us-descr-list {
@@ -323,10 +338,9 @@ button:visited {
   list-style: none;
   margin: 0px;
   padding: 0px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  text-align: center;
-  vertical-align: middle;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin-top: 44px;
   margin-bottom: 44px;
 }
@@ -627,24 +641,31 @@ button:visited {
 
 /* Footer */
 .main-footer .footer-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
   padding-bottom: 71px;
+  align-items: center;
 }
 
 .footer-wrapper ul {
   list-style: none;
   margin: 0px;
   padding: 0px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  width: 400px;
+  display: flex;
+  align-items: center;
 }
 
 /*  Social buttons */
 .social-button {
   text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  align-self: center;
   background-color: var(--social-gray);
   color: var(--basic-white);
+  width: 81px;
+  height: 81px;
+  margin-right: 12px;
 }
 
 .social-button:hover,
